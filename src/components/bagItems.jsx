@@ -25,7 +25,26 @@ return(
 <div>
 <p>price</p>
  </div>
+ <div>
+  <img src={iphone11}></img>
+  </div>
+  <div>
+<p>Apple iphone 11</p>
+</div>
+<div>
+<p>color</p>
+</div>
+<div>
+<p>short description</p>
+</div>
+<div>
+<p>stars</p>
+</div>
+<div>
+<p>price</p>
+ </div>
  </>
+ 
 )
 }
 
