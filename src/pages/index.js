@@ -1,7 +1,7 @@
-import products from '../pages/productsPage';
-import shipping from '../pages/shippingPage';
+import Products from './ProductsPage';
+import Shipping from './ShippingPage';
 
 export {
- products,
- shipping
+ Products,
+ Shipping
 }
