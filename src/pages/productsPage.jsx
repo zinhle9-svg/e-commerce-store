@@ -1,5 +1,5 @@
 import React from "react";
-import { iphone16pro, iphone11, macbook, watchseries7 } from "../images";
+import { iphone16pro, iphone11, macbook, watchseries7 } from "../assets";
 
 function BagItems () {
 const items = 
