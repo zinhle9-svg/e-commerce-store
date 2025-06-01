@@ -1,18 +1,20 @@
-import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 import '../src/main.css';
-import App from './App';
-// import NavBar from './navBar'
-// import ShippingInfo from './pages/shippingPage';
-// import BagItems from './pages/productsPage';
+import App from '../src/App';
+
+import { Provider } from 'react-redux';
+import { store } from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  
+ <Provider store={store}>
     
   <App />
+  </Provider>
 
-  </React.StrictMode>
+
 );
 
 

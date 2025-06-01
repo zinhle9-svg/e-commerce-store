@@ -51,7 +51,7 @@ return(
             <p className="text-yellow-500">{items.stars}</p>
             <p className="text-green-600 font-bold">{items.price}</p>
           </div>
-          
+          <button className="bg-black-600 text-white">Add to cart</button>
           </div>
  ))}
  </div>

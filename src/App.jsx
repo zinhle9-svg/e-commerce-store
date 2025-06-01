@@ -1,21 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import BagItems from "./pages/ProductsPage";
-import NavBar from "../src/navBar";
-import React from "react";
+import { Products, Shipping, NavBar  } from "./pages";
+
 
 
 
 function App() {
   return (
     <>
- 
       <BrowserRouter>
         <Routes>
-          <Route path="/navbar" element={<NavBar />} />
-          <Route path="/bag" element={<BagItems />} />
+          <Route path="/" element={<NavBar />} />
+          <Route path="/" element={<Products />} />
+          <Route path="/" element={<Shipping />} />  
         </Routes>
-      </BrowserRouter>
-     
+      </BrowserRouter>   
   </>
   );
 }

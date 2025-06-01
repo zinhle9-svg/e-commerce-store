@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoIosMenu } from "react-icons/io";
 import { IoBagHandle } from "react-icons/io5";
 import { FaHome } from "react-icons/fa";
-import { Products } from "../src/pages/index";
+import { Products } from "./index";
 
 function NavBar() {
   const [open, setOpen] = useState(false);
